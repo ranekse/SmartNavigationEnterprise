@@ -1,0 +1,11 @@
+apiVersion: 1
+
+apps:
+  - type: 'enesk-smartnavigation-app'
+    org_id: 1
+    org_name: 'enesk'
+    disabled: false
+    jsonData:
+      apiUrl: http://default-url.com
+    secureJsonData:
+      apiKey: secret-key

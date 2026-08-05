@@ -1,0 +1,33 @@
+{
+    "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+    "type": "panel",
+    "id": "ranekse-smartnavigationenterprise-panel",
+    "name": "Smart Navigation Enterprise",
+    "info": {
+        "description": "A powerful, dynamic, and tag-based navigation panel plugin for Grafana.",
+        "keywords": ["navigation", "menu", "tags", "panel", "enterprise"],
+        "logos": {
+            "small": "img/logo.svg",
+            "large": "img/logo.svg"
+        },
+        "screenshots": [
+            {
+                "path": "img/TamEkran.png",
+                "name": "Full Screen View"
+            },
+            {
+                "path": "img/PanelAyarlari.png",
+                "name": "Panel Settings"
+            }
+        ],
+        "author": {
+            "name": "Enes K."
+        },
+        "version": "1.0.0",
+        "updated": "2026-08-04"
+    },
+    "dependencies": {
+        "grafanaVersion": "10.0.0",
+        "plugins": []
+    }
+}
