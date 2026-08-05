@@ -2,6 +2,10 @@
   "name": "smart-navigation",
   "version": "1.0.0",
   "keywords": ["grafana", "plugin", "panel", "navigation", "menu", "tags"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ranekse/SmartNavigationEnterprise.git"
+  },
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
     "dev": "webpack -w -c ./.config/webpack/webpack.config.ts --env development",

@@ -20,6 +20,12 @@
                 "name": "Panel Settings"
             }
         ],
+        "links": [
+            {
+                "name": "GitHub Repository",
+                "url": "https://github.com/ranekse/SmartNavigationEnterprise"
+            }
+        ],
         "author": {
             "name": "Enes K."
         },
